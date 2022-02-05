@@ -1,0 +1,25 @@
+{
+    "name": "kdabrow/strategy-contract",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "illuminate/collections": "^8.0",
+        "nesbot/carbon": "^2.55",
+        "kdabrow/exchange-contract": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kdabrow\\StrategyContract\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:karoldabro/exchange-contract.git",
+            "symlink": false
+        }
+    ]
+}
